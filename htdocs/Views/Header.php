@@ -23,9 +23,18 @@ include('../Controller/Config.php');
   </a>
   </li>
   <li class='nav-item dropdown'>
-   <a class='nav-link dropdown-toggle' href='#'>
- Cursos
-   </a>
+  
+  <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Cursos
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Alguma ação</a>
+    <a class="dropdown-item" href="#">Outra ação</a>
+    <a class="dropdown-item" href="#">Alguma coisa aqui</a>
+  </div>
+</div>
+
   </li>
   
  <li class='nav-item'>
