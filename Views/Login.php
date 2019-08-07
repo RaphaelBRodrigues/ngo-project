@@ -24,6 +24,7 @@ include('../Models/Header.php');
 <?php
 
 include('../Models/Footer.php');
+include('../Controller/Login.php');
 
 ?>
 <style media="screen">

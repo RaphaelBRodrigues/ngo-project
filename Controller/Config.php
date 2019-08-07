@@ -8,14 +8,14 @@ echo "
 
 <meta charset='utf-8'>
 ";
-/*
+
 $databaseHost = 'localhost';
 $databaseName = 'ONG';
 $databaseUsername = 'ONG';
 $databasePassword = 'ONG';
 $mysqli = mysqli_connect($databaseHost,
 $databaseUsername,$databasePassword,$databaseName);
-*/
+
 
 //EPIZY
 /*

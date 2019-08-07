@@ -53,6 +53,10 @@ include('../Models/Header.php');
     <label>Telefone 2</label>
     <input class="form-control" name='tell' placeholder="Ex:(11)87422-9742" type='password'>
   </div>
+  <div class="form-group">
+    <label>Passkey</label>
+    <input class="form-control" name='passkey' placeholder="Apenas para funcionários" type='password'>
+  </div>
 
   <button type="submit" id='enviar' class="btn btn-primary">Entrar</button><br><br>
 
