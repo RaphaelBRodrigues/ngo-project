@@ -1,7 +1,11 @@
 body{
-	background-color: #F1E5E5;
+	background-color: rgba(255,215,0,0.8)
+;
+	margin: 0 auto;
 }
-
+#cab{
+	border-bottom: black 1 solid;
+}
 nav{
 	margin-bottom: 80px;
 }
@@ -16,7 +20,7 @@ nav{
 
 }
 #loginForm{
-margin-left: 35%;
+margin-left: 30%;
 		width: 30%;
 		background-color: rgba(255,255,255,0.7);
 		border: 1px black solid;
@@ -52,14 +56,25 @@ li{
 }
 
 #contatos{
-text-align: center }
+width:40em;
+text-align: center;
+margin-left: 25%;
+ }
+
 .inf{
-	float: left;
+	margin-bottom: em;
 }
 #fbLogo{
-	height: 15px;
+	height: 1em;
 }
 .cursos{
 	float: left;
 	margin: 0 ;
+}
+
+footer{
+	color:white;
+	height: 15em;
+	 background-color: rgba(0,0,0,0.8);
+	margin-top: 1px solid black;
 }

@@ -1,9 +1,8 @@
 <?php
 
-include('Header.php');
+include('../Models/Header.php');
 
 ?>
-
 
 
 
@@ -21,5 +20,14 @@ include('Header.php');
   <small>Caso esqueça a senha procure um dos administradores no local</small>
 </form>
 
-</body>
-</html>
+<br><br>
+<?php
+
+include('../Models/Footer.php');
+
+?>
+<style media="screen">
+  footer{
+margin-top: 18em;
+  }
+</style>

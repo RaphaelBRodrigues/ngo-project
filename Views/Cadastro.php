@@ -1,6 +1,6 @@
 <?php
 
-include('Header.php');
+include('../Models/Header.php');
 
 ?>
 
@@ -57,5 +57,9 @@ include('Header.php');
   <button type="submit" id='enviar' class="btn btn-primary">Entrar</button><br><br>
 </form>
 
-</body>
-</html>
+
+<?php
+
+include('../Models/Footer.php');
+
+?>

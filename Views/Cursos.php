@@ -1,6 +1,6 @@
 <?php
 
-include('Header.php');
+include('../Models/Header.php');
 
 ?>
 <div id='blocoCursos'>
@@ -42,3 +42,11 @@ include('Header.php');
   <li><a href="#"> ???? </a></li>
 </ul>
 </div>
+
+<br><br><br>
+
+<?php
+
+include('../Models/Footer.php');
+
+?>
