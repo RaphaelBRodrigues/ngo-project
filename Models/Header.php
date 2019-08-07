@@ -59,7 +59,7 @@ include('../Controller/Config.php');
   <ul class='navbar-nav navbar-right'>
  	<li class='nav-link'>
      <a class= 'nav-link' href='Login.php'>
- 	Login
+".$_SESSION['Nome']."
      </a>
  	</li>
  </ul>

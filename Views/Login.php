@@ -1,12 +1,13 @@
 <?php
 
 include('../Models/Header.php');
+include('../Controller/LoginPHP.php');
 
 ?>
 
 
 
-<form id='cadastroForm' method="post" action="">
+<form id='cadastroForm' method="post" action="#">
   <div class="form-group">
     <label>Usuário</label>
     <input class="form-control" name='user'  placeholder="Usuário">
@@ -17,7 +18,8 @@ include('../Models/Header.php');
   </div>
 
   <button type="submit" id='enviar' class="btn btn-primary">Entrar</button><br><br>
-  <small>Caso esqueça a senha procure um dos administradores no local</small>
+  <small>  <?php echo $text; ?></small>
+
 </form>
 
 <br><br>
