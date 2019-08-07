@@ -55,6 +55,9 @@ include('../Models/Header.php');
   </div>
 
   <button type="submit" id='enviar' class="btn btn-primary">Entrar</button><br><br>
+
+
+  <small class="text-uppercase">A autenticação da conta deve ser feita no local</small>
 </form>
 
 
