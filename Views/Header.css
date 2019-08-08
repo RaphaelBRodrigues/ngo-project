@@ -1,10 +1,13 @@
 body{
-	background-color: rgba(255,215,0,0.8)
+	background-color: #70ddf1;
 ;
 	margin: 0 auto;
 }
+.nav-link{
+	color:White;
+}
 #cab{
-	border-bottom: black 1 solid;
+	border-bottom:black 1 solid;
 }
 nav{
 	margin-bottom: 80px;
@@ -71,4 +74,8 @@ footer{
 	height: 15em;
 	 background-color: rgba(0,0,0,0.8);
 	margin-top: 1px solid black;
+}
+
+.code-php{
+	display: none;
 }
