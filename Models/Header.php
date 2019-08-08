@@ -12,16 +12,16 @@ $_SESSION['Nome'] = 'Login';
  	<title></title>
  </head>
  <body>
- <nav class='navbar navbar-expand-lg navbar-light' id='cab' style='background-color:#e3f2fd;'>
+ <nav class='navbar navbar-expand-lg navbar-dark' id='cab' style='background-color:#0091ea;'>
 
-   <a class='navbar-brand' href='#'>
+   <a class='navbar-brand' href='../Index.php'>
      <img src='../Imagens/Logo.png' id='logo' alt='logo'>
    </a>
 
    <div class='navbar-collapse' id='items'>
      <ul class='navbar-nav'>
    	<li class='nav-item'>
-    <a class='nav-link' href='Index.php' id='home'>
+    <a class='nav-link' href='../Index.php' id='home'>
    	Home
    </a>
    </li>

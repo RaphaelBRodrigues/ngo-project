@@ -6,12 +6,15 @@ include('../Controller/CadastroPHP.php');
 ?>
 
 
+
+
+
 <form id='loginForm' class='mx-auto' method="post" action="#">
 
-<?php 
+<?php
 #message
 if (isset($alert)) {
-  echo "<div><h3>".$alert."</h3w></div>";
+  echo "<div><h3>".$alert."</h3></div>";
 
 } ?>
   <div class="form-group">
@@ -21,7 +24,7 @@ if (isset($alert)) {
 ">
   </div>
 
-   
+
     <label>Usuário</label>
     <input class="form-control" name='username'  placeholder="Ex:AntônioDasDores123">
   </div>

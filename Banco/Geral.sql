@@ -24,7 +24,7 @@ AT_Name varchar(90),
 AT_Username varchar(40),
 AT_Password varchar(40),
 AT_Cep int(8),
-AT_Cpf int(11),
+AT_Cpf  int(11) UNIQUE,
 AT_House int(8),
 AT_Userhash int(100),
 AT_CursoID int(4),
@@ -62,4 +62,4 @@ Your String: teacherongreviver789
 
 select * from usuario;
 
-truncate usuario;
+#truncate usuario;

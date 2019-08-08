@@ -3,7 +3,10 @@
 include('../Models/Header.php');
 
 ?>
-<div id='blocoCursos' class='mx-auto'>
+<div  class='row mx-auto'>
+
+<div class="col">
+
 
 <ul class='cursos'>
   Profissionalizante
@@ -16,37 +19,72 @@ include('../Models/Header.php');
 
 </ul>
 
+</div>
+
+<div class="col">
 
 <ul class='cursos'>
   Arte
   <li><a href="InfCursos.php?cursoid=7"> Violão </a></li>
   <li><a href="InfCursos.php?cursoid=8"> Teclado </a></li>
   <li><a href="InfCursos.php?cursoid=9"> Balé </a></li>
+  <li><a href="InfCursos.php?cursoid=7"> Violão </a></li>
+  <li><a href="InfCursos.php?cursoid=8"> Teclado </a></li>
+  <li><a href="InfCursos.php?cursoid=9"> Balé </a></li>
 
 </ul>
+
+</div>
+<div class="col">
 
 <ul class='cursos'>
   ??
   <li><a href="InfCursos.php?cursoid=10"> ?? </a></li>
-</ul>
-
-
-<ul class='cursos'>
-  ??
-  <li><a href="InfCursos.php?cursoid=11"> ?? </a></li>
-</ul>
-
-<ul class='cursos'>
-  ??
-  <li><a href="InfCursos.php?cursoid=12"> ?? </a></li>
-</ul>
-
-<ul class='cursos'>
-  ??
-  <li><a href="InfCursos.php?cursoid=1"> ?? </a></li>
+  <li><a href="InfCursos.php?cursoid=10"> ?? </a></li>
+  <li><a href="InfCursos.php?cursoid=10"> ?? </a></li>
+  <li><a href="InfCursos.php?cursoid=10"> ?? </a></li>
+  <li><a href="InfCursos.php?cursoid=10"> ?? </a></li>
 </ul>
 </div>
+
+
+<div class="col">
+
+<ul class='cursos'>
+  ??
+  <li><a href="InfCursos.php?cursoid=10"> ?? </a></li>
+  <li><a href="InfCursos.php?cursoid=10"> ?? </a></li>
+  <li><a href="InfCursos.php?cursoid=10"> ?? </a></li>
+  <li><a href="InfCursos.php?cursoid=10"> ?? </a></li>
+  <li><a href="InfCursos.php?cursoid=10"> ?? </a></li></ul>
 </div>
+
+<div class="col">
+
+<ul class='cursos'>
+  ??
+  <li><a href="InfCursos.php?cursoid=10"> ?? </a></li>
+  <li><a href="InfCursos.php?cursoid=10"> ?? </a></li>
+  <li><a href="InfCursos.php?cursoid=10"> ?? </a></li>
+  <li><a href="InfCursos.php?cursoid=10"> ?? </a></li>
+  <li><a href="InfCursos.php?cursoid=10"> ?? </a></li></ul>
+</div>
+
+<div class="col">
+
+<ul class='cursos'>
+  ??
+  <li><a href="InfCursos.php?cursoid=10"> ?? </a></li>
+  <li><a href="InfCursos.php?cursoid=10"> ?? </a></li>
+  <li><a href="InfCursos.php?cursoid=10"> ?? </a></li>
+  <li><a href="InfCursos.php?cursoid=10"> ?? </a></li>
+  <li><a href="InfCursos.php?cursoid=10"> ?? </a></li></ul>
+
+</div>
+</div>
+</div>
+</div>
+
 
 
 <br><br><br>
