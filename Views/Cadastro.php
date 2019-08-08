@@ -1,11 +1,19 @@
 <?php
 
 include('../Models/Header.php');
+include('../Controller/CadastroPHP.php');
 
 ?>
 
-<form id='loginForm' method="post" action="">
 
+<form id='loginForm' class='mx-auto' method="post" action="#">
+
+<?php 
+#message
+if (isset($alert)) {
+  echo "<div><h3>".$alert."</h3w></div>";
+
+} ?>
   <div class="form-group">
 
     <label>Nome Completo</label>
@@ -13,8 +21,13 @@ include('../Models/Header.php');
 ">
   </div>
 
+   
     <label>Usuário</label>
-    <input class="form-control" name='user'  placeholder="Ex:AntônioDasDores123">
+    <input class="form-control" name='username'  placeholder="Ex:AntônioDasDores123">
+  </div>
+
+   <label>CPF</label>
+    <input class="form-control" name='cpf'  placeholder="Ex:387292345-00">
   </div>
 
   <div class="form-group">
@@ -36,26 +49,26 @@ include('../Models/Header.php');
 
   <div class="form-group">
     <label>Rua</label>
-    <input class="form-control" name='rua' placeholder="Ex:Rua Super bacana" type='password'>
+    <input class="form-control" name='rua' placeholder="Ex:Rua Super bacana" type='text'>
   </div>
 
   <div class="form-group">
     <label>Número da casa</label>
-    <input class="form-control" name='casa' placeholder="Ex:28" type='password'>
+    <input class="form-control" name='casa' placeholder="Ex:28" type='text'>
   </div>
 
   <div class="form-group">
     <label>Telefone 1</label>
-    <input class="form-control" name='tel' placeholder="Ex:(11)98742-8742" type='password'>
+    <input class="form-control" name='tel' placeholder="Ex:(11)98742-8742" type='text'>
   </div>
 
   <div class="form-group">
     <label>Telefone 2</label>
-    <input class="form-control" name='tell' placeholder="Ex:(11)87422-9742" type='password'>
+    <input class="form-control" name='tell' placeholder="Ex:(11)87422-9742" type='text'>
   </div>
   <div class="form-group">
     <label>Passkey</label>
-    <input class="form-control" name='passkey' placeholder="Apenas para funcionários" type='password'>
+    <input class="form-control" name='passkey' placeholder="Apenas para funcionários" type='text'>
   </div>
 
   <button type="submit" id='enviar' class="btn btn-primary">Entrar</button><br><br>

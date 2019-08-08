@@ -20,11 +20,13 @@ AT_Class varchar(1000)
 
 create table usuario(
 AT_UserID int primary key auto_increment,
-AT_Name varchar(900),
+AT_Name varchar(90),
 AT_Username varchar(40),
-AT_Password varchar(100),
-AT_Cep int,
-AT_Userhash int,
+AT_Password varchar(40),
+AT_Cep int(8),
+AT_Cpf int(11),
+AT_House int(8),
+AT_Userhash int(100),
 AT_CursoID int(4),
 AT_Bairro varchar(40),
 AT_Street varchar(40),
@@ -36,8 +38,8 @@ AT_PhoneTwo int(11)
 #Insert Session
 
 #Master account
-insert usuario(AT_UserID,AT_Name,AT_Username,AT_Password) values
-(null,'Master','Master','Master');
+insert usuario(AT_UserID,AT_Name,AT_Username,AT_Password,AT_Cpf) values
+(null,'Master','Master','Master',0);
 
 
 #Passkey para funcionarios
@@ -58,4 +60,6 @@ Your Hash: bd64fdbee37f81bdb5823cc5977aafd6
 Your String: teacherongreviver789
 */
 
+select * from usuario;
 
+truncate usuario;

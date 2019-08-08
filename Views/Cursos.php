@@ -3,9 +3,8 @@
 include('../Models/Header.php');
 
 ?>
-<div id='blocoCursos'>
+<div id='blocoCursos' class='mx-auto'>
 
-</div>
 <ul class='cursos'>
   Profissionalizante
   <li><a href="InfCursos.php?.php?id="> Eletricista </a></li>
@@ -47,6 +46,8 @@ include('../Models/Header.php');
   <li><a href="InfCursos.php?cursoid=1"> ?? </a></li>
 </ul>
 </div>
+</div>
+
 
 <br><br><br>
 <br><br><br>

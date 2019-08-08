@@ -7,7 +7,7 @@ include('../Controller/LoginPHP.php');
 
 
 
-<form id='cadastroForm' method="post" action="#">
+<form id='loginForm' class='mx-auto' method="post" action="#">
   <div class="form-group">
     <label>Usuário</label>
     <input class="form-control" name='user'  placeholder="Usuário">

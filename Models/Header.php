@@ -1,7 +1,9 @@
 
 <?php
-
 include('../Controller/Config.php');
+if (empty($_SESSION['Nome'])) {
+$_SESSION['Nome'] = 'Login';
+}
  echo "
 
  <!DOCTYPE html>
