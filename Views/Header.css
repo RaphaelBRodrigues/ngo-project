@@ -1,5 +1,5 @@
 body{
-	background-color: #70ddf1; 
+	background-color: #70ddf1;
 ;
 	margin: 0 auto;
 }
@@ -74,4 +74,8 @@ footer{
 	height: 15em;
 	 background-color: rgba(0,0,0,0.8);
 	margin-top: 1px solid black;
+}
+
+.code-php{
+	display: none;
 }

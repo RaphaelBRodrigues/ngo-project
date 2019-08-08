@@ -1,22 +1,34 @@
 <?php
 
 include('../Models/Header.php');
+
+?>
+<div class="code-php">
+
+<?php
+
 include('../Controller/CadastroPHP.php');
 
 ?>
 
 
+</div>
+
 
 
 
 <form id='loginForm' class='mx-auto' method="post" action="#">
-
+<h2>Cadastro</h2>
 <?php
 #message
+if(empty($alert)){
+  $alert = " ";
+}
 if (isset($alert)) {
   echo "<div><h3>".$alert."</h3></div>";
 
 } ?>
+
   <div class="form-group">
 
     <label>Nome Completo</label>
@@ -79,10 +91,3 @@ if (isset($alert)) {
 
   <small class="text-uppercase">A autenticação da conta deve ser feita no local</small>
 </form>
-
-
-<?php
-
-include('../Models/Footer.php');
-
-?>

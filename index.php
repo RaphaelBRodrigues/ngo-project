@@ -5,6 +5,9 @@
 	 <link rel="stylesheet" href="Views/Header.css">
 	 <?php
 include_once('Controller/Config.php');
+if(!isset($_SESSION)) {
+    session_start();
+  }
 	  ?>
  	<title></title>
  </head>
@@ -42,7 +45,7 @@ include_once('Controller/Config.php');
    </a>
  </li>
  <li class='nav-item '>
-   <a class='nav-link  ' href='Views/Contatos.php'>
+   <a class='nav-link' href='Views/Contatos.php'>
    	Contatos
    </a>
  </li>
@@ -77,6 +80,7 @@ body{
 ;
 	margin: 0 auto;
 }
+
 </style>
 
 
