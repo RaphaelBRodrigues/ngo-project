@@ -1,8 +1,20 @@
 
 <?php
 include('../Controller/Config.php');
-if (empty($_SESSION['Nome'])) {
-$_SESSION['Nome'] = 'Login';
+if ($_SESSION['nivel'] == 1 || $_SESSION['nivel'] == 2) {
+  $AlunosCab = "Alunos";
+}else{
+  $AlunosCab = "";
+}
+
+if(empty($_SESSION['Nome'])){
+  $_SESSION['Nome'] = "Login";
+}
+
+if(isset($_SESSION['nivel'])){
+  $nivel = "(".$_SESSION['nivel'].")";
+}else{
+  $nivel = "";
 }
  echo "
 
@@ -49,6 +61,15 @@ $_SESSION['Nome'] = 'Login';
    </a>
  </li>
 
+ <li class='nav-item '>
+   <a class='nav-link' href='Alunos.php'>
+
+   ".$AlunosCab."
+
+   </a>
+ </li>
+
+
 
  </ul>
 
@@ -61,7 +82,7 @@ $_SESSION['Nome'] = 'Login';
   <ul class='navbar-nav navbar-right'>
  	<li class='nav-link'>
      <a class= 'nav-link' href='Login.php'>
-".$_SESSION['Nome']."
+".$_SESSION['Nome']." ".$nivel."
      </a>
  	</li>
  </ul>
