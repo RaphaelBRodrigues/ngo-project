@@ -1,23 +1,25 @@
 <?php
 
-include('../Models/Header.php');
+include('Components/Header.php');
 
 ?>
 <div class="code-php">
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <?php
 
-include('../Controller/CadastroPHP.php');
+include('../Models/CadastroPHP.php');
 
 ?>
-
+<script type="text/javascript" src="Js/cep.js">
+</script>
 
 </div>
 
 
 
 
-<form id='loginForm' class='mx-auto' method="post" action="#">
+<form   id='loginForm' class='mx-auto' method="post" action="#">
 <h2>Cadastro</h2>
 <?php
 #message
@@ -32,7 +34,7 @@ if (isset($alert)) {
   <div class="form-group">
 
     <label>Nome Completo</label>
-    <input class="form-control" name='user'  placeholder="Ex:Antônio Morrendo Das Dores
+    <input class="form-control" name='user' autofocus placeholder="Ex:Antônio Morrendo Das Dores
 ">
   </div>
 
@@ -51,20 +53,20 @@ if (isset($alert)) {
   </div>
 
   <div class="form-group">
-    <label>CEP</label>
-    <input class="form-control"  title="Exemplo 05880-250" name='cep' type='number' placeholder="05880-250">
+    <label >CEP</label>
+    <input class="form-control" id='cep'   title="Exemplo 05880-250" name='cep' type='number' placeholder="05880-250">
   </div>
 
   <div class="form-group">
-    <label>Bairro</label>
-    <input class="form-control" name='bairro'  placeholder="Ex:Capão Redondo">
+    <label id='br'>Bairro</label>
+    <input class="form-control"  name='bairro'  id='bairro'     placeholder="Ex:Capão Redondo">
   </div>
 
 
 
   <div class="form-group">
     <label>Rua</label>
-    <input class="form-control" name='rua' placeholder="Ex:Rua Super bacana" type='text'>
+    <input class="form-control" name='rua' id='rua' placeholder="Ex:Rua Super bacana" type='text'>
   </div>
 
   <div class="form-group">
@@ -91,3 +93,9 @@ if (isset($alert)) {
 
   <small class="text-uppercase">A autenticação da conta deve ser feita no local</small>
 </form>
+
+<?php
+
+include('Components/Footer.php');
+
+?>

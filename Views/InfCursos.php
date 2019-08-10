@@ -1,6 +1,6 @@
 <?php
 
-include('../Models/Header.php');
+include('Components/Header.php');
 
 $curso = $_POST['cursoid'];
 
@@ -12,6 +12,6 @@ echo $curso;
 
 <?php
 
-include('../Models/Footer.php');
+include('Components/Footer.php');
 
 ?>

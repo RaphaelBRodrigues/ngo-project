@@ -1,6 +1,6 @@
 <?php
 
-include('../Models/Header.php');
+include('Components/Header.php');
 
 ?>
 <div  class='row mx-auto'>
@@ -93,6 +93,6 @@ include('../Models/Header.php');
 
 <?php
 
-include('../Models/Footer.php');
+include('Components/Footer.php');
 
 ?>

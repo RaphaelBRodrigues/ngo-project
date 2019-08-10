@@ -10,8 +10,11 @@ if (empty($log)) {
 if ($log == 1) {
 	session_start();
 	session_destroy();
+	header('Location: ../Index.php');
+
 	$log = 0;
+
 }
-header('Location: ../Index.php');
+
 
  ?>

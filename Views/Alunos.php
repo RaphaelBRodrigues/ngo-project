@@ -1,5 +1,12 @@
-<?php 
+<?php
 include('../Controller/Config.php');
-include('../Models/Header.php');
+include('Components/Header.php');
+ ?>
+
+
+
+ <?php
+
+ include('Components/Footer.php');
 
  ?>
