@@ -31,6 +31,11 @@ include('../Controller/LoginPHP.php');
 </form>
 
 <br><br>
+
+<form>
+<button id='logout' class='material-icons'>exit_to_app</button>
+</form>
+
 <?php
 
 include('../Models/Footer.php');

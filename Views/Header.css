@@ -79,3 +79,10 @@ footer{
 .code-php{
 	display: none;
 }
+
+
+  #logout{
+    background-color: rgba(0,0,0,0);
+    border: 0px;
+    color:lightblue;
+  }
