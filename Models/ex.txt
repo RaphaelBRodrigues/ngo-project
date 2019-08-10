@@ -1,0 +1,1 @@
+Model é para manipulaçao de tabelas.
