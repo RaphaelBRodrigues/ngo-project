@@ -15,7 +15,8 @@ $text = "Caso esqueça a senha procure um dos administradores no local";
 }*/
 
 
-$query = mysqli_query($mysqli,"SELECT usuario.AT_Name,usuario.AT_Username,usuario.AT_Password,passkey.AT_Nivel from usuario inner join passkey");
+$query = mysqli_query($mysqli,"SELECT usuario.AT_Name,usuario.AT_Username,usuario.AT_Password,passkey.AT_Nivel from usuario inner join passkey where passkey.AT_Hash = usuario.AT_Userhash");
+
           echo "<br>";
 /*Login*/
           while($print = mysqli_fetch_array($query)) {

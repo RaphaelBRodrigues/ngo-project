@@ -1,4 +1,5 @@
 <?php
+include('../Controller/logoutPHP.php');
 if(!isset($_SESSION)) {
     session_start();
   }
