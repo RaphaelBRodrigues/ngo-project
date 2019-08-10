@@ -1,6 +1,6 @@
 <?php
 
-include('../Models/Header.php');
+include('Components/Header.php');
 
 ?>
 
@@ -38,7 +38,7 @@ include('../Controller/LoginPHP.php');
 
 <?php
 
-include('../Models/Footer.php');
+include('Components/Footer.php');
 include('../Controller/Login.php');
 
 ?>
