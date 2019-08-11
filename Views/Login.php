@@ -16,9 +16,10 @@ include('../Controller/LoginPHP.php');
 </div>
 
 <form id='loginForm' class='mx-auto' method="post" action="#">
+  <h2>Login</h2>
   <div class="form-group">
     <label>Usuário</label>
-    <input class="form-control" name='user'  placeholder="Usuário">
+    <input class="form-control" name='user'   autofocus  placeholder="Usuário">
   </div>
   <div class="form-group">
     <label>Senha</label>
@@ -39,7 +40,7 @@ include('../Controller/LoginPHP.php');
 <?php
 
 include('Components/Footer.php');
-include('../Controller/Login.php');
+include('../Controller/LoginPHP.php');
 
 ?>
 <style media="screen">

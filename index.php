@@ -67,9 +67,7 @@ if(empty($_SESSION['Nome'])){
     Quem Somos
    </a>
  </li>
-
  <li class='nav-item '>
-
    <a class='nav-link  ' href='Views/Contatos.php'>
     Contatos
    </a>
@@ -82,7 +80,6 @@ if(empty($_SESSION['Nome'])){
 
    </a>
  </li>
-
 
 
 
@@ -156,4 +153,3 @@ if(empty($_SESSION['Nome'])){
  </footer>
  </body>
  </html>
-

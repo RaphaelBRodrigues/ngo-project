@@ -1,5 +1,9 @@
-<?php 
 
+<?php
+
+	if (empty($_GET['logout'])) {
+$_GET['logout'] = 0;
+	}
 $log = $_GET['logout'];
 
 
@@ -15,6 +19,5 @@ if ($log == 1) {
 	$log = 0;
 
 }
-
 
  ?>

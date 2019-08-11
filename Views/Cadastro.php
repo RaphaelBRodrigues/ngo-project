@@ -88,7 +88,7 @@ if (isset($alert)) {
     <input class="form-control" name='passkey' placeholder="Apenas para funcionários" type='text'>
   </div>
 
-  <button type="submit" id='enviar' class="btn btn-primary">Entrar</button><br><br>
+  <button type="submit" id='enviar' name='en' value='1' class="btn btn-primary">Entrar</button><br><br>
 
 
   <small class="text-uppercase">A autenticação da conta deve ser feita no local</small>

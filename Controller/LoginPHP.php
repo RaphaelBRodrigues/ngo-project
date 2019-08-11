@@ -29,8 +29,6 @@ $_SESSION['nivel'] = $print['AT_Nivel'];
 }else if(isset($name) || isset($pass) ){
 $text =  "Caso esqueça a senha procure um dos administradores no local.<br><Strong class='text-uppercase'>Usuário ou senha errado.</Strong>";
 }
-}else if(isset($name) || isset($pass) ){
-$text =  "Caso esqueça a senha procure um dos administradores no local<br><Strong class='text-uppercase'>Usuário ou senha errado.</Strong>";
 }
       }
 

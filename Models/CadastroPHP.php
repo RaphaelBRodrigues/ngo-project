@@ -1,6 +1,9 @@
 <?php
 include('Config.php');
-/*EMPTY http_post_data*/
+
+if ($_POST['en'] == '1') {
+
+
 
 
 
@@ -16,6 +19,10 @@ $tell = $_POST['tell'];
 $passkey = $_POST['passkey'];
 $cpf = $_POST['cpf'];
 
+if($passkey !== "4bbf529262aa9e9abda3cf77ac7cbc0f" || $passkey !=="bd821ff44472b82eb556e6ce17223b27"  ||  $passkey !=="bd64fdbee37f81bdb5823cc5977aafd6" ){
+	$passkey = "";
+
+}
 
 
 $query = mysqli_query($mysqli,"SELECT AT_Cpf from usuario");
@@ -41,10 +48,7 @@ $alert = 'Usuário já cadastrado';
 	}
 }
 
-
+}
 
 
  ?>
-
-
- 
