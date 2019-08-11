@@ -1,5 +1,6 @@
 <?php
 
+
 session_start();
 include('Components/Header.php');
 if ($_SESSION['nivel'] == 1 || $_SESSION['nivel'] == 2) {
