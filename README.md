@@ -1,11 +1,10 @@
 <!DOCTYPE html>
  <html>
  <head>
- 	<title></title>
  </head>
  <body>
  <nav class='navbar navbar-expand-lg navbar-dark' id='cab' style='background-color:#0091ea;'>
-
+<link rel='stylesheet' href='Views/Components/Header.php'>
    <a class='navbar-brand' href='../Index.php'>
      <img src='../Imagens/Logo.png' id='logo' alt='logo'>
    </a>
