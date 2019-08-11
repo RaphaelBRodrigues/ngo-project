@@ -6,7 +6,6 @@ if ($_POST['en'] == '1') {
 
 
 
-
 $user = $_POST['user'];
 $username = $_POST['username'];
 $password = $_POST['password'];

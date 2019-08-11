@@ -13,25 +13,24 @@ echo "
 
 <meta charset='utf-8'>
 ";
-
+/*
 $databaseHost = 'localhost';
 $databaseName = 'ONG';
 $databaseUsername = 'ONG';
 $databasePassword = 'ONG';
 $mysqli = mysqli_connect($databaseHost,
 $databaseUsername,$databasePassword,$databaseName);
+*/
 
 
-//EPIZY
-/*
 $databaseHost = 'sql107.epizy.com';
 $databaseName = 'epiz_24293573_FreeOng';
 $databaseUsername = 'epiz_24293573';
-$databasePassword = 'fiLyCPxN0Is95P';
+$databasePassword = 'ongfree';
 $mysqli = mysqli_connect($databaseHost,
 $databaseUsername,$databasePassword,$databaseName);
 
-*/
+
 
 
 ?>
