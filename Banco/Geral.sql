@@ -10,7 +10,7 @@ AT_Hash varchar(100) primary key
 );
 
 create table TipoCurso(
-AT_TipoCursoID int(2) primary key,
+AT_TipoCursoID int(2) primary key auto_increment,
 AT_Tipo varchar(20)
 );
 
@@ -79,7 +79,7 @@ select * from Curso;
 
 select usuario.AT_Name ,passkey.AT_Nivel from usuario inner join passkey where passkey.AT_Hash = usuario.AT_Userhash ;
 
-select * from Curso;
+select * from TipoCurso;
 insert into TipoCurso values(1,'Arte');
 
 insert into TipoCurso values(2,'Profissionalizante');

@@ -16,7 +16,7 @@ echo"<div class='mx-auto'>
    type='button' href='DelCurso.php'>Atualizar Curso</a>";
 
    echo"<br>  <a class='btn btn-warning ml-5 mb-5' style='color:white;font-family:calibri;'
-    type='button' href='DelCurso.php'>Adicionar Categoria</a>";
+    type='button' href='AddCategoria.php'>Adicionar Categoria</a>";
 
     echo"  <a class='btn btn-danger ml-4 mb-5' style='color:white;font-family:calibri;'
      type='button' href='DelCurso.php'>Deletar Categoria</a>";
