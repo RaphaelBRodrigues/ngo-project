@@ -83,5 +83,6 @@ select * from Curso;
 insert into TipoCurso values(1,'Arte');
 
 insert into TipoCurso values(2,'Profissionalizante');
+insert into TipoCurso values(3,'Teste');
 
 #truncate usuario;

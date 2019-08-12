@@ -2,9 +2,8 @@
 
 include('Components/Header.php');
 
-$curso = $_POST['cursoid'];
+$curso = $_GET['curso'];
 
-echo $curso;
 ?>
 
 

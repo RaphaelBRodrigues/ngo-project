@@ -17,11 +17,11 @@ while($tipo = mysqli_fetch_array($FirstQuery)){
       <ul class='cursos'>".$tipo['AT_Tipo']."
       ";
 
- $SecondQuery = mysqli_query($mysqli,"SELECT AT_Name,AT_Tipo FROM Curso WHERE AT_Tipo = $tip");
+ $SecondQuery = mysqli_query($mysqli,"SELECT AT_Name,AT_Tipo,AT_CursoID FROM Curso WHERE AT_Tipo = $tip");
  while($item = mysqli_fetch_array($SecondQuery)) {
 //Create a item list
 echo "
-    <li><a href='InfCursos.php?cursoid=10'>".$item['AT_Name']."</a></li>
+    <li><a href='InfCursos.php?curso=".$item['AT_CursoID']."'>".$item['AT_Name']."</a></li>
     ";
   }
   //Close a list
