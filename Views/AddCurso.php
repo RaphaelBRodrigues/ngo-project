@@ -15,7 +15,7 @@ $_SESSION['cursoRes'] = "";}
 
 <form class="mx-auto" id='loginForm' action="../Models/CursoAddPHP.php?f=1" method="post">
   <h2>Novo curso</h2>
-  <h3><?php echo $_SESSION['cursoRes']; ?></h3>
+  <!-- <h3><?php echo $_SESSION['cursoRes']; ?></h3> -->
   <div class='form-group'>
     <label for='curso'>Nome do curso</label>
     <input type="text" id='curso' name='name' class='form-control' title='Insira o nome do curso' placeholder="Ex:Violão" value="">

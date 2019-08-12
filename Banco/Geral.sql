@@ -10,13 +10,13 @@ AT_Hash varchar(100) primary key
 );
 
 create table TipoCurso(
-AT_TipoCursoID int(2) primary key,
+AT_TipoCursoID int(2) primary key auto_increment,
 AT_Tipo varchar(20)
 );
 
 create table Curso(
 AT_CursoID int primary key auto_increment,
-AT_Name varchar(90),
+AT_Name varchar(90) UNIQUE,
 AT_Tipo int(2),
 foreign key(AT_Tipo) references TipoCurso(AT_TipoCursoID)
 );
@@ -80,7 +80,11 @@ select * from Curso;
 select usuario.AT_Name ,passkey.AT_Nivel from usuario inner join passkey where passkey.AT_Hash = usuario.AT_Userhash ;
 
 select * from TipoCurso;
-insert into TipoCurso values(2,'Profissionalizante');
+insert into TipoCurso values(1,'Arte');
 
-insert into curso values(null,'Violão',1);
+insert into TipoCurso values(2,'Profissionalizante');
+insert into TipoCurso values(3,'Teste');
+
 #truncate usuario;
+
+DELETE FROM TipoCurso where AT_TipoCursoID = 7;
