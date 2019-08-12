@@ -19,10 +19,10 @@ echo"<div class='mx-auto'>
     type='button' href='AddCategoria.php'>Adicionar Categoria</a>";
 
     echo"  <a class='btn btn-danger ml-4 mb-5' style='color:white;font-family:calibri;'
-     type='button' href='DelCurso.php'>Deletar Categoria</a>";
+     type='button' href='DelCategoria.php'>Deletar Categoria</a>";
 
      echo"  <a class='btn btn-info ml-4 mb-5' style='color:white;font-family:calibri;'
-      type='button' href='DelCurso.php'>Atualizar Categoria</a> </div>";
+      type='button' href='AttCategoria.php'>Atualizar Categoria</a> </div>";
 
 }
 if (empty($_GET['status'])) {
