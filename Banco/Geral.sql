@@ -86,3 +86,5 @@ insert into TipoCurso values(2,'Profissionalizante');
 insert into TipoCurso values(3,'Teste');
 
 #truncate usuario;
+
+DELETE FROM TipoCurso where AT_TipoCursoID = 7;
