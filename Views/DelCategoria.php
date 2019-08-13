@@ -7,6 +7,9 @@ include('../Controller/Config.php');
 
 
 ?>
+<div class="text-center text-danger">
+<h1>Deletar categoria</h1>
+</div>
 <?php
 $FirstQuery = mysqli_query($mysqli,'SELECT AT_Tipo,AT_TipoCursoID FROM TipoCurso');
 
