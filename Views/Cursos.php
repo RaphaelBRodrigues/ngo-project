@@ -34,6 +34,19 @@ if ($_GET['status'] == 1) {
 if ($_GET['status'] == 2) {
     echo "<h1 class='pl-5 text-danger'>Falha ao cadastrar curso</h1>";
 }
+if ($_GET['status'] == 3) {
+    echo "<h1 class='pl-5 text-success'>Categoria atualizada com sucesso</h1>";
+}
+if ($_GET['status'] == 4) {
+    echo "<h1 class='pl-5 text-danger'>Falha ao atualizar categoria</h1>";
+}
+if ($_GET['status'] == 5) {
+    echo "<h1 class='pl-5 text-danger'>Categoria deletada</h1>";
+}
+if ($_GET['status'] == 6) {
+    echo "<h1 class='pl-5 text-danger'>Falha ao deletar categoria</h1>";
+}
+
 
 
 ?>
