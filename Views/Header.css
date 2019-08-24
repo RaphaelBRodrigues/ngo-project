@@ -1,7 +1,13 @@
 body{
 	background-color: #70ddf1;
-;
+
 	margin: 0 auto;
+}
+nav ul li{
+	display: none;
+}
+#nav-check:checked ~ .navbar-nav{
+	display: none;
 }
 .nav-link{
 	color:White;
@@ -85,4 +91,11 @@ footer{
     background-color: rgba(0,0,0,0);
     border: 0px;
     color:lightblue;
+  }
+@media screen and (max-width: 990px) {
+  	nav{
+  		background-color: white;
+  	}
+
+
   }

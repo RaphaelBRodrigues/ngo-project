@@ -6,6 +6,7 @@
 
 
 <?php
+header("Location: Views/Login.php");
 include('Controller/Config.php');
 include('Controller/logoutPHP.php');
 
