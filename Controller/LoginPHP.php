@@ -1,9 +1,12 @@
 <?php
 
 include_once('Config.php');
-$name = $_POST['user'];
-$pass = $_POST['password'];
+
+@$name = $_POST['user'];
+@$pass = $_POST['password'];
 $text = "Caso esqueça a senha procure um dos administradores no local";
+
+
 
 
 /*$query = mysqli_query($mysqli,"SELECT * FROM usuarios");

@@ -45,6 +45,6 @@ include('../Controller/LoginPHP.php');
 ?>
 <style media="screen">
   footer{
-margin-top: 18em;
+margin-top: 1em;
   }
 </style>
