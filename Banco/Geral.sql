@@ -26,7 +26,7 @@ foreign key(AT_Tipo) references TipoCurso(AT_TipoCursoID)
 
 create table usuario(
 AT_UserID int primary key auto_increment,
-AT_Name varchar(90),
+AT_Name varchar(90) UNIQUE,
 AT_Username varchar(40),
 AT_Password varchar(40),
 AT_Cep int(8),
