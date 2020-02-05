@@ -1,5 +1,4 @@
 
-
 <?php
 include('../Controller/Config.php');
 
@@ -36,14 +35,15 @@ if(empty($_SESSION['Nome'])){
  <body>
  <nav class='navbar navbar-expand-lg navbar-dark' id='cab' style='background-color:#0091ea;'>
 
-   <a class='navbar-brand' href='../Index.php'>
-     <img src='../Imagens/Logo.png' id='logo' alt='logo'>
+   <a class='navbar-brand' href='../index.php'>
+     <img src='../Imagens/Logo.png' class='img-fluid ml-5' id='logo' alt='logo'>
    </a>
+   <button data-toggle='collapse' data-dismiss='collapse' data-target='#items' class='btn material-icons d-lg-none text-light' id='nav-icon' for='nav-check'>menu</button>
 
-   <div class='navbar-collapse' id='items'>
-     <ul class='navbar-nav'>
+   <div class='navbar-collapse collapse' id='items'>
+     <ul class='navbar-nav ml-4'>
    	<li class='nav-item'>
-    <a class='nav-link' href='../Index.php' id='home'>
+    <a class='nav-link' href='../index.php' id='home'>
    	Home
    </a>
    </li>
@@ -89,9 +89,9 @@ if(empty($_SESSION['Nome'])){
    </div>
 
 
-   <div id='items'>
+   <div class='navbar-collapse collapse loginnav' id='items'>
 
-  <ul class='navbar-nav navbar-right'>
+  <ul class='navbar-nav navbar-right ml-4'>
  	<li class='nav-link mt-3' >
      <a class= 'nav-link' href='Login.php'>
 ".$_SESSION['Nome']." ".$nivel." 

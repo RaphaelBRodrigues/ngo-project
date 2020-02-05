@@ -19,7 +19,7 @@ include('../Models/CadastroPHP.php');
 
 
 
-<form   id='loginForm' class='mx-auto' method="post" action="#">
+<form   id='loginForm' class='mx-auto' method="post" action="../">
 <h2>Cadastro</h2>
 <?php
 #message
@@ -99,3 +99,13 @@ if (isset($alert)) {
 include('Components/Footer.php');
 
 ?>
+<style media="screen">
+body{
+	background-color: #70ddf1;
+
+	margin: 0 auto;
+}
+  footer{
+margin-top: 1em;
+  }
+</style>

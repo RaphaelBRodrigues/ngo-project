@@ -3,6 +3,9 @@ body{
 
 	margin: 0 auto;
 }
+.loginnav{
+	margin-top: -0.4em;
+}
 nav ul li{
 	display: none;
 }
@@ -20,7 +23,6 @@ nav{
 }
 #logo{
 	height:80px;
-	margin-left: 3em;
 }
 
 .nav-item{
