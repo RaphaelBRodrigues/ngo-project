@@ -1,10 +1,7 @@
  <!DOCTYPE html>
  <html>
  <head>
-
 	 <link rel="stylesheet" href="Views/Header.css">
-
-
 
 <?php
 // header("Location: Views/Login.php");
