@@ -5,7 +5,7 @@ include('Components/Header.php');
 include("../Controller/Config.php");
 
 if ($_SESSION['nivel'] == 1 || $_SESSION['nivel'] == 2) {
-echo"<div class='mx-auto'>
+echo"<div class='mx-auto container'><div class='row'>
 <a class='btn btn-warning ml-5 mb-5' style='color:white;font-family:calibri;'
  type='button' href='AddCurso.php'>Novo Curso</a>";
 
@@ -22,7 +22,7 @@ echo"<div class='mx-auto'>
      type='button' href='DelCategoria.php'>Deletar Categoria</a>";
 
      echo"  <a class='btn btn-info ml-4 mb-5' style='color:white;font-family:calibri;'
-      type='button' href='AttCategoria.php'>Atualizar Categoria</a> </div>";
+      type='button' href='AttCategoria.php'>Atualizar Categoria</a> </div></div>";
 
 }
 if (empty($_GET['status'])) {
@@ -68,6 +68,13 @@ body{
 	background-color: #70ddf1;
 
 	margin: 0 auto;
+}
+.cursos{
+  font-size:2.3em;
+}
+.item-curso{
+
+  font-size:1em;
 }
   footer{
 margin-top: 1em;

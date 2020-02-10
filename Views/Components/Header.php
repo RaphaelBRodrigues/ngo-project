@@ -36,7 +36,7 @@ if(empty($_SESSION['Nome'])){
  <nav class='navbar navbar-expand-lg navbar-dark' id='cab' style='background-color:#0091ea;'>
 
    <a class='navbar-brand' href='../index.php'>
-     <img src='../Imagens/Logo.png' class='img-fluid ml-5' id='logo' alt='logo'>
+     <img src='../Imagens/Logo.png' class='img-fluid ml-4' id='logo' alt='logo'> FreeONG
    </a>
    <button data-toggle='collapse' data-dismiss='collapse' data-target='#items' class='btn material-icons d-lg-none text-light' id='nav-icon' for='nav-check'>menu</button>
 

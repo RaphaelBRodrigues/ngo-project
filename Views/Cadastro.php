@@ -105,6 +105,9 @@ body{
 
 	margin: 0 auto;
 }
+#loginForm{
+  box-shadow:0 0 10px black;
+}
   footer{
 margin-top: 1em;
   }

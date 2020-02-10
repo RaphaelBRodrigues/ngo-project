@@ -40,11 +40,11 @@ echo "
  <nav class='navbar  navbar-expand-lg navbar-dark' id='cab' style='background-color:#0091ea;'>
 
    <a class='navbar-brand ' href='Index.php'>
-     <img src='Imagens/Logo.png' id='logo' class='mr-2'  alt='logo'> FreeONG
+     <img src='Imagens/Logo.png' id='logo' class='mr-2 ml-5'  alt='logo'> FreeONG
    </a>
 <button data-toggle='collapse' data-dismiss='collapse' data-target='#items' class='btn material-icons d-lg-none text-light' id='nav-icon' for='nav-check'>menu</button>
    <div class='navbar-collapse collapse ' id='items'>
-     <ul class='navbar-nav '>
+     <ul class='navbar-nav ml-4'>
     <li class='nav-item'>
     <a class='nav-link' href='Views/Views/Index.php' id='home'>
     Home
@@ -93,7 +93,7 @@ echo "
 
    <div class='navbar-collapse collapse ' id='items'>
 
-  <ul class='navbar-nav navbar-right'>
+  <ul class='navbar-nav navbar-right ml-4 '>
   <li class='nav-link mt-3' >
      <a class= 'nav-link' href='Views/Login.php'>
 ".$_SESSION['Nome']." ".$nivel." 
@@ -125,7 +125,7 @@ echo "
 
 <div class='container texto-main'>
 <h1>FreeONG</h1>
-<H2>Algum texto aqui</H2>
+<H2>Em desenvolvimento</H2>
 
 <div class='row mt-5'>
 <a href="#info"><button class='btn btn-info mr-4'>Saiba mais</button></a>
@@ -161,7 +161,7 @@ margin: 0 auto;
  .bloco-main{
   margin-top:-5em;
   height:34em;
-  background-repeat:none;
+  background-repeat:no-repeat;
   background-size:100%;
 background-image:url('https://redenoticiaes.com/wp-content/uploads/2018/07/IMG-20180719-WA0046.jpg');
    width:100%;
@@ -175,10 +175,9 @@ background-image:url('https://redenoticiaes.com/wp-content/uploads/2018/07/IMG-2
  
  .bloco-texto{
    background-color:rgba(232,172,111,0.3);
-   border:1px solid #E8AC6F;
    padding:20px 20px 20px 20px;
    color:rgba(0,0,0,0.7);
-   box-shadow:0 0 40px #E8AC6F;
+   box-shadow:0 0 40px black;
  }
  .texto-main{
    padding-top:6.3em;
@@ -193,4 +192,17 @@ font-weight:700;
    margin-left:auto;
    margin-right:auto;
  }
+<<<<<<< HEAD
+ @media screen and (max-width:989px) {
+  
+  .conteudo-main{
+  height:27em;
+  } 
+}
+
+
+ 
  </style>
+=======
+ </style>
+>>>>>>> 8beb8f35f4ae5e4838ed6572700eed1381fd973e
